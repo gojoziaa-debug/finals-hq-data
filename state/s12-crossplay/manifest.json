@@ -1,0 +1,23 @@
+{
+  "v": 1,
+  "key": "s12-crossplay",
+  "idField": "name",
+  "volatileFields": [
+    "rank",
+    "change"
+  ],
+  "deltas": [],
+  "base": {
+    "file": "full-2026-11-05T22-05-21Z.json.gz",
+    "at": "2026-11-05T22:05:21.578Z",
+    "sha256": "5a4e0ffef363d9f010cb4e731d2399336806ecac2a0db90761c3ac3bec6a2805",
+    "count": 10000
+  },
+  "lastRun": {
+    "at": "2026-11-05T22:05:21.578Z",
+    "outcome": "full",
+    "sha256": "5a4e0ffef363d9f010cb4e731d2399336806ecac2a0db90761c3ac3bec6a2805",
+    "count": 10000
+  },
+  "lastSuccessAt": "2026-11-05T22:05:21.578Z"
+}

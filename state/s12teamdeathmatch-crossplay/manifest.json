@@ -1,0 +1,23 @@
+{
+  "v": 1,
+  "key": "s12teamdeathmatch-crossplay",
+  "idField": "name",
+  "volatileFields": [
+    "rank",
+    "change"
+  ],
+  "deltas": [],
+  "base": {
+    "file": "full-2026-11-05T22-05-34Z.json.gz",
+    "at": "2026-11-05T22:05:34.014Z",
+    "sha256": "33ed558f4cc840fcbcf7f3e66df436d985cf7a91ca18d233d1e8a86697d719fa",
+    "count": 10000
+  },
+  "lastRun": {
+    "at": "2026-11-05T22:05:34.014Z",
+    "outcome": "full",
+    "sha256": "33ed558f4cc840fcbcf7f3e66df436d985cf7a91ca18d233d1e8a86697d719fa",
+    "count": 10000
+  },
+  "lastSuccessAt": "2026-11-05T22:05:34.014Z"
+}

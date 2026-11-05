@@ -1,0 +1,23 @@
+{
+  "v": 1,
+  "key": "s12quickcash-crossplay",
+  "idField": "name",
+  "volatileFields": [
+    "rank",
+    "change"
+  ],
+  "deltas": [],
+  "base": {
+    "file": "full-2026-11-05T22-05-31Z.json.gz",
+    "at": "2026-11-05T22:05:31.789Z",
+    "sha256": "5328af26243a6226901b76e27b44adc53cdc09c145e3423d58f2d1d2bff3b720",
+    "count": 10000
+  },
+  "lastRun": {
+    "at": "2026-11-05T22:05:31.789Z",
+    "outcome": "full",
+    "sha256": "5328af26243a6226901b76e27b44adc53cdc09c145e3423d58f2d1d2bff3b720",
+    "count": 10000
+  },
+  "lastSuccessAt": "2026-11-05T22:05:31.789Z"
+}

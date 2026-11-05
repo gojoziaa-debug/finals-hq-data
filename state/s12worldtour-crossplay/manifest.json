@@ -1,0 +1,23 @@
+{
+  "v": 1,
+  "key": "s12worldtour-crossplay",
+  "idField": "name",
+  "volatileFields": [
+    "rank",
+    "change"
+  ],
+  "deltas": [],
+  "base": {
+    "file": "full-2026-11-05T22-05-24Z.json.gz",
+    "at": "2026-11-05T22:05:24.238Z",
+    "sha256": "8ad9b8a1b8777c7eac8a10990a80efad06d9113b46a239a5e8ffa1ed998de9a3",
+    "count": 10000
+  },
+  "lastRun": {
+    "at": "2026-11-05T22:05:24.238Z",
+    "outcome": "full",
+    "sha256": "8ad9b8a1b8777c7eac8a10990a80efad06d9113b46a239a5e8ffa1ed998de9a3",
+    "count": 10000
+  },
+  "lastSuccessAt": "2026-11-05T22:05:24.238Z"
+}

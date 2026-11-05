@@ -1,0 +1,23 @@
+{
+  "v": 1,
+  "key": "s12powershift-crossplay",
+  "idField": "name",
+  "volatileFields": [
+    "rank",
+    "change"
+  ],
+  "deltas": [],
+  "base": {
+    "file": "full-2026-11-05T22-05-29Z.json.gz",
+    "at": "2026-11-05T22:05:29.452Z",
+    "sha256": "299971b4ac56eb9b460e1f388974f43789d20c028c706dfb221fdf862b1c740c",
+    "count": 10000
+  },
+  "lastRun": {
+    "at": "2026-11-05T22:05:29.452Z",
+    "outcome": "full",
+    "sha256": "299971b4ac56eb9b460e1f388974f43789d20c028c706dfb221fdf862b1c740c",
+    "count": 10000
+  },
+  "lastSuccessAt": "2026-11-05T22:05:29.452Z"
+}
