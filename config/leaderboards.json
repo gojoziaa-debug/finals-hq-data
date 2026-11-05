@@ -1,0 +1,25 @@
+{
+  "api": "https://api.the-finals-leaderboard.com",
+  "userAgent": "finals-hq-collector/0.1 (+https://github.com/gojoziaa-debug/finals-hq-data)",
+  "timeoutMs": 30000,
+  "pauseBetweenRequestsMs": 2000,
+  "defaults": {
+    "idField": "name",
+    "volatileFields": ["rank", "change"],
+    "fullEveryMinutes": 1440,
+    "fullIfChangedShareAbove": 0.6
+  },
+  "leaderboards": [
+    { "id": "s12", "platform": "crossplay", "everyMinutes": 0,
+      "note": "Ranked Cashout S12, the core. Fields verified 2026-11-05: rank, change, name, steamName, psnName, xboxName, clubTag, clubUuid, officialClubName, leagueNumber, league, rankScore. API cache 10-20 min." },
+    { "id": "s12worldtour", "platform": "crossplay", "everyMinutes": 60,
+      "note": "World Tour S12 (cashouts). Fields verified: rank, name, steamName, psnName, xboxName, clubTag, clubUuid, officialClubName, cashouts." },
+    { "id": "s12sponsor", "platform": "crossplay", "everyMinutes": 60,
+      "note": "Sponsor S12 (sponsor, fans)." },
+    { "id": "s12powershift", "platform": "crossplay", "everyMinutes": 360, "note": "Power Shift S12 (points)." },
+    { "id": "s12quickcash", "platform": "crossplay", "everyMinutes": 360, "note": "Quick Cash S12 (points)." },
+    { "id": "s12teamdeathmatch", "platform": "crossplay", "everyMinutes": 360, "note": "Team Deathmatch S12 (points)." },
+    { "id": "s12pointbreak", "platform": "crossplay", "everyMinutes": 360, "note": "Point Break S12 (points)." },
+    { "id": "s12soloshowdown", "platform": "crossplay", "everyMinutes": 360, "note": "Solo Showdown S12 (points)." }
+  ]
+}

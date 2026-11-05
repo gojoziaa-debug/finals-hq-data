@@ -1,0 +1,19 @@
+{
+  "name": "finals-hq-data",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Snapshot collector for THE FINALS public leaderboards (FINALS HQ). Unofficial fan project, not affiliated with Embark Studios.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "collect": "node --experimental-strip-types src/collect.ts",
+    "test": "node --experimental-strip-types --test tests/delta.test.ts tests/collect.test.ts",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "typescript": "^5.9.3"
+  }
+}

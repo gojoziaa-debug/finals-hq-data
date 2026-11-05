@@ -1,0 +1,36 @@
+name: collect
+
+on:
+  schedule:
+    # Every 10 minutes (the upstream API refreshes every 10-20 min), off the :00 slot
+    # because GitHub delays jobs scheduled on the hour. Per-board cadence is in config/.
+    - cron: "3,13,23,33,43,53 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Never let two runs race on the same files.
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Collect snapshots
+        run: node --experimental-strip-types src/collect.ts
+
+      - name: Commit and push
+        if: always()
+        run: bash scripts/commit.sh
