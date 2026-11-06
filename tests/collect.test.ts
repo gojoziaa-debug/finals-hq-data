@@ -49,6 +49,12 @@ describe("parseBody", () => {
     assert.equal(parsed.rows.length, 3);
     assert.deepEqual(parsed.meta, { meta: { x: 1 }, count: 3 });
   });
+  it("accepts a community event whose rows sit in data.entries", () => {
+    const body = { meta: { leaderboardVersion: "ce44" }, count: 2, data: { progress: { currentProgress: 5, goal: 10 }, entries: makeRows(2) } };
+    const parsed = parseBody(JSON.stringify(body), "name");
+    assert.equal(parsed.rows.length, 2);
+    assert.deepEqual(parsed.meta, { meta: { leaderboardVersion: "ce44" }, count: 2, data: { progress: { currentProgress: 5, goal: 10 } } });
+  });
   it("rejects drifts instead of guessing", () => {
     assert.throws(() => parseBody("not json", "name"), /not JSON/);
     assert.throws(() => parseBody('{"foo":1}', "name"), /neither/);

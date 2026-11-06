@@ -18,9 +18,11 @@ function isPlainObject(value: unknown): value is { [key: string]: Json } {
 }
 
 /**
- * Accepts the two shapes a leaderboard API commonly uses:
+ * Accepts the three shapes the upstream API uses:
  *   - a bare array of rows
  *   - an object with a `data` array (plus `meta`, `count`, ...)
+ *   - a community event: `data` is an object whose `entries` array holds the rows (its `progress`
+ *     is kept in `meta.data`)
  * Anything else is a schema drift and must stop the run rather than be guessed at.
  */
 export function parseBody(text: string, idField: string): ParsedBody {
@@ -39,6 +41,14 @@ export function parseBody(text: string, idField: string): ParsedBody {
     rows = parsed.data;
     const rest: { [key: string]: Json } = {};
     for (const [k, v] of Object.entries(parsed)) if (k !== "data") rest[k] = v;
+    meta = rest;
+  } else if (isPlainObject(parsed) && isPlainObject(parsed.data) && Array.isArray(parsed.data.entries)) {
+    rows = parsed.data.entries;
+    const rest: { [key: string]: Json } = {};
+    for (const [k, v] of Object.entries(parsed)) if (k !== "data") rest[k] = v;
+    const dataRest: { [key: string]: Json } = {};
+    for (const [k, v] of Object.entries(parsed.data)) if (k !== "entries") dataRest[k] = v;
+    rest.data = dataRest;
     meta = rest;
   } else {
     throw new ValidationError("body is neither an array nor an object with a `data` array");

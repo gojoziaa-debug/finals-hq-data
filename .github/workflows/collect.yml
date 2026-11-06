@@ -19,6 +19,10 @@ jobs:
   collect:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      # Optional: a fine-grained token (finals-hq- only, "Contents: read and write") lets the
+      # collector wake the app's ingestion right after a commit. Without it the app relies on its own cron.
+      DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -32,5 +36,15 @@ jobs:
         run: node --experimental-strip-types src/collect.ts
 
       - name: Commit and push
+        id: commit
         if: always()
         run: bash scripts/commit.sh
+
+      - name: Notify finals-hq- (repository_dispatch)
+        if: steps.commit.outputs.committed == 'true' && env.DISPATCH_TOKEN != ''
+        run: |
+          curl -fsS -X POST \
+            -H "Authorization: Bearer $DISPATCH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/gojoziaa-debug/finals-hq-/dispatches \
+            -d '{"event_type":"data-updated"}'

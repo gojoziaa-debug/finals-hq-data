@@ -5,13 +5,15 @@ set -euo pipefail
 git config user.name "github-actions[bot]"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-git add -A state archive runs.log errors 2>/dev/null || git add -A
+git add -A state archive seasons runs.log errors 2>/dev/null || git add -A
 if git diff --cached --quiet; then
   echo "nothing to commit"
+  [ -n "${GITHUB_OUTPUT:-}" ] && echo "committed=false" >> "$GITHUB_OUTPUT"
   exit 0
 fi
 
-git commit -q -m "collect: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+git commit -q -m "${COMMIT_PREFIX:-collect}: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+[ -n "${GITHUB_OUTPUT:-}" ] && echo "committed=true" >> "$GITHUB_OUTPUT"
 
 for attempt in 1 2 3 4; do
   if git push origin HEAD:main; then

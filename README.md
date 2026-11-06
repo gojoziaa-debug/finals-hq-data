@@ -27,6 +27,7 @@ state/<clé>/manifest.json           état courant (petit, réécrit à chaque r
 state/<clé>/full-<horodatage>.json.gz   snapshot complet de référence
 state/<clé>/delta-<horodatage>.json.gz  changements depuis le snapshot précédent de la chaîne
 archive/<clé>/AAAA/MM/JJ/…          anciennes chaînes, déplacées telles quelles
+seasons/<clé>/full-<horodatage>.json.gz  classements figés (saisons passées, événements), téléchargés une fois
 runs.log                             une ligne JSON par classement et par run
 errors/                              corps de réponse qui ont échoué la validation
 ```
@@ -76,11 +77,26 @@ manuelle de son id, de sa plateforme et de son schéma (voir le dossier de véri
 | `fullEveryMinutes` | âge maximal d'un snapshot complet avant d'en reprendre un |
 | `everyMinutes` | cadence propre au classement (0 = à chaque run du job) |
 
+## Archives (classements figés)
+
+`config/archives.json` liste les 85 classements figés (saisons cb1 à s11, plateformes séparées de ob/s1/s2,
+classements spéciaux, événements communautaires). Le workflow `import-archives` (lancement manuel) exécute
+`src/import-archives.ts`, qui télécharge chaque classement absent de `seasons/` une seule fois, au même format
+qu'un snapshot complet, et le commite. L'application les importe ensuite dans sa table `season_results`.
+
+## Réveil de l'application
+
+Après chaque commit, le workflow `collect` envoie un `repository_dispatch` (`data-updated`) au dépôt
+[finals-hq-](https://github.com/gojoziaa-debug/finals-hq-) si le secret `DISPATCH_TOKEN` existe ici : un token à
+grain fin limité à ce dépôt-là avec la permission *Contents: read and write*. Sans ce secret, l'application se
+contente de son propre cron.
+
 ## Lancer en local
 
 ```bash
 npm test                                   # tests unitaires + bout en bout (Node ≥ 22.6, aucune dépendance)
 npm run collect                            # un run réel, écrit dans ./state
+npm run import-archives -- --only s11-crossplay   # télécharge un classement figé dans ./seasons
 node --experimental-strip-types src/collect.ts --root /tmp/essai --only s12-crossplay
 ```
 

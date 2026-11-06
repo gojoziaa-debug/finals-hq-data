@@ -1,0 +1,41 @@
+name: import-archives
+
+# One-off download of the frozen leaderboards into seasons/ (see src/import-archives.ts).
+# Safe to re-run: boards already present are skipped.
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Single key to fetch (e.g. s11-crossplay); empty = every missing archive"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+# Shares the collector's lock so the two jobs never commit at the same time.
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Download missing archives
+        run: node --experimental-strip-types src/import-archives.ts ${{ inputs.only != '' && format('--only {0}', inputs.only) || '' }}
+
+      - name: Commit and push
+        if: always()
+        env:
+          COMMIT_PREFIX: archives
+        run: bash scripts/commit.sh

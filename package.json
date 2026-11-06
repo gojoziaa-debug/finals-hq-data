@@ -9,7 +9,8 @@
   },
   "scripts": {
     "collect": "node --experimental-strip-types src/collect.ts",
-    "test": "node --experimental-strip-types --test tests/delta.test.ts tests/collect.test.ts",
+    "import-archives": "node --experimental-strip-types src/import-archives.ts",
+    "test": "node --experimental-strip-types --test tests/delta.test.ts tests/collect.test.ts tests/archives.test.ts",
     "typecheck": "tsc -p tsconfig.json"
   },
   "devDependencies": {

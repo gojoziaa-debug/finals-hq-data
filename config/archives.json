@@ -1,0 +1,428 @@
+{
+  "note": "Classements figés (82 ids - 8 en direct + plateformes + 2 événements), vérifiés le 2026-11-05. Téléchargés une seule fois dans seasons/ par src/import-archives.ts.",
+  "archives": [
+    {
+      "id": "cb1",
+      "note": "Closed Beta 1 · Ranked Cashout"
+    },
+    {
+      "id": "cb2",
+      "note": "Closed Beta 2 · Ranked Cashout"
+    },
+    {
+      "id": "ob",
+      "platform": "crossplay",
+      "note": "Open Beta · Ranked Cashout"
+    },
+    {
+      "id": "ob",
+      "platform": "steam",
+      "note": "Open Beta · Ranked Cashout (steam)"
+    },
+    {
+      "id": "ob",
+      "platform": "xbox",
+      "note": "Open Beta · Ranked Cashout (xbox)"
+    },
+    {
+      "id": "ob",
+      "platform": "psn",
+      "note": "Open Beta · Ranked Cashout (psn)"
+    },
+    {
+      "id": "s1",
+      "platform": "crossplay",
+      "note": "Season 1 · Ranked Cashout"
+    },
+    {
+      "id": "s1",
+      "platform": "steam",
+      "note": "Season 1 · Ranked Cashout (steam)"
+    },
+    {
+      "id": "s1",
+      "platform": "xbox",
+      "note": "Season 1 · Ranked Cashout (xbox)"
+    },
+    {
+      "id": "s1",
+      "platform": "psn",
+      "note": "Season 1 · Ranked Cashout (psn)"
+    },
+    {
+      "id": "s2",
+      "platform": "crossplay",
+      "note": "Season 2 · Ranked Cashout"
+    },
+    {
+      "id": "s2",
+      "platform": "steam",
+      "note": "Season 2 · Ranked Cashout (steam)"
+    },
+    {
+      "id": "s2",
+      "platform": "xbox",
+      "note": "Season 2 · Ranked Cashout (xbox)"
+    },
+    {
+      "id": "s2",
+      "platform": "psn",
+      "note": "Season 2 · Ranked Cashout (psn)"
+    },
+    {
+      "id": "s3",
+      "platform": "crossplay",
+      "note": "Season 3 · Ranked Cashout"
+    },
+    {
+      "id": "s3original",
+      "platform": "crossplay",
+      "note": "Season 3 · Ranked Cashout (before reset)"
+    },
+    {
+      "id": "s3worldtour",
+      "platform": "crossplay",
+      "note": "Season 3 · World Tour"
+    },
+    {
+      "id": "s4",
+      "platform": "crossplay",
+      "note": "Season 4 · Ranked Cashout"
+    },
+    {
+      "id": "s4worldtour",
+      "platform": "crossplay",
+      "note": "Season 4 · World Tour"
+    },
+    {
+      "id": "s4sponsor",
+      "platform": "crossplay",
+      "note": "Season 4 · Sponsor"
+    },
+    {
+      "id": "s5",
+      "platform": "crossplay",
+      "note": "Season 5 · Ranked Cashout"
+    },
+    {
+      "id": "s5sponsor",
+      "platform": "crossplay",
+      "note": "Season 5 · Sponsor"
+    },
+    {
+      "id": "s5worldtour",
+      "platform": "crossplay",
+      "note": "Season 5 · World Tour"
+    },
+    {
+      "id": "s5terminalattack",
+      "platform": "crossplay",
+      "note": "Season 5 · Terminal Attack"
+    },
+    {
+      "id": "s5powershift",
+      "platform": "crossplay",
+      "note": "Season 5 · Power Shift"
+    },
+    {
+      "id": "s5quickcash",
+      "platform": "crossplay",
+      "note": "Season 5 · Quick Cash"
+    },
+    {
+      "id": "s5bankit",
+      "platform": "crossplay",
+      "note": "Season 5 · Bank It"
+    },
+    {
+      "id": "s6",
+      "platform": "crossplay",
+      "note": "Season 6 · Ranked Cashout"
+    },
+    {
+      "id": "s6sponsor",
+      "platform": "crossplay",
+      "note": "Season 6 · Sponsor"
+    },
+    {
+      "id": "s6worldtour",
+      "platform": "crossplay",
+      "note": "Season 6 · World Tour"
+    },
+    {
+      "id": "s6terminalattack",
+      "platform": "crossplay",
+      "note": "Season 6 · Terminal Attack"
+    },
+    {
+      "id": "s6powershift",
+      "platform": "crossplay",
+      "note": "Season 6 · Power Shift"
+    },
+    {
+      "id": "s6quickcash",
+      "platform": "crossplay",
+      "note": "Season 6 · Quick Cash"
+    },
+    {
+      "id": "s6teamdeathmatch",
+      "platform": "crossplay",
+      "note": "Season 6 · Team Deathmatch"
+    },
+    {
+      "id": "s6heavyhitters",
+      "platform": "crossplay",
+      "note": "Season 6 · Heavy Hitters"
+    },
+    {
+      "id": "s7",
+      "platform": "crossplay",
+      "note": "Season 7 · Ranked Cashout"
+    },
+    {
+      "id": "s7sponsor",
+      "platform": "crossplay",
+      "note": "Season 7 · Sponsor"
+    },
+    {
+      "id": "s7worldtour",
+      "platform": "crossplay",
+      "note": "Season 7 · World Tour"
+    },
+    {
+      "id": "s7terminalattack",
+      "platform": "crossplay",
+      "note": "Season 7 · Terminal Attack"
+    },
+    {
+      "id": "s7powershift",
+      "platform": "crossplay",
+      "note": "Season 7 · Power Shift"
+    },
+    {
+      "id": "s7quickcash",
+      "platform": "crossplay",
+      "note": "Season 7 · Quick Cash"
+    },
+    {
+      "id": "s7teamdeathmatch",
+      "platform": "crossplay",
+      "note": "Season 7 · Team Deathmatch"
+    },
+    {
+      "id": "s7blastoff",
+      "platform": "crossplay",
+      "note": "Season 7 · Blast Off"
+    },
+    {
+      "id": "s7cashball",
+      "platform": "crossplay",
+      "note": "Season 7 · Cashball"
+    },
+    {
+      "id": "s8",
+      "platform": "crossplay",
+      "note": "Season 8 · Ranked Cashout"
+    },
+    {
+      "id": "s8sponsor",
+      "platform": "crossplay",
+      "note": "Season 8 · Sponsor"
+    },
+    {
+      "id": "s8worldtour",
+      "platform": "crossplay",
+      "note": "Season 8 · World Tour"
+    },
+    {
+      "id": "s8head2head",
+      "platform": "crossplay",
+      "note": "Season 8 · Head 2 Head"
+    },
+    {
+      "id": "s8powershift",
+      "platform": "crossplay",
+      "note": "Season 8 · Power Shift"
+    },
+    {
+      "id": "s8quickcash",
+      "platform": "crossplay",
+      "note": "Season 8 · Quick Cash"
+    },
+    {
+      "id": "s8teamdeathmatch",
+      "platform": "crossplay",
+      "note": "Season 8 · Team Deathmatch"
+    },
+    {
+      "id": "s8blastoff",
+      "platform": "crossplay",
+      "note": "Season 8 · Blast Off"
+    },
+    {
+      "id": "s8ghoulrush",
+      "platform": "crossplay",
+      "note": "Season 8 · Ghoul Rush"
+    },
+    {
+      "id": "s8heavenorelse",
+      "platform": "crossplay",
+      "note": "Season 8 · Heaven or Else"
+    },
+    {
+      "id": "s9",
+      "platform": "crossplay",
+      "note": "Season 9 · Ranked Cashout"
+    },
+    {
+      "id": "s9sponsor",
+      "platform": "crossplay",
+      "note": "Season 9 · Sponsor"
+    },
+    {
+      "id": "s9worldtour",
+      "platform": "crossplay",
+      "note": "Season 9 · World Tour"
+    },
+    {
+      "id": "s9head2head",
+      "platform": "crossplay",
+      "note": "Season 9 · Head 2 Head"
+    },
+    {
+      "id": "s9powershift",
+      "platform": "crossplay",
+      "note": "Season 9 · Power Shift"
+    },
+    {
+      "id": "s9quickcash",
+      "platform": "crossplay",
+      "note": "Season 9 · Quick Cash"
+    },
+    {
+      "id": "s9teamdeathmatch",
+      "platform": "crossplay",
+      "note": "Season 9 · Team Deathmatch"
+    },
+    {
+      "id": "s9pointbreak",
+      "platform": "crossplay",
+      "note": "Season 9 · Point Break"
+    },
+    {
+      "id": "s9bankit",
+      "platform": "crossplay",
+      "note": "Season 9 · Bank It"
+    },
+    {
+      "id": "s10",
+      "platform": "crossplay",
+      "note": "Season 10 · Ranked Cashout"
+    },
+    {
+      "id": "s10sponsor",
+      "platform": "crossplay",
+      "note": "Season 10 · Sponsor"
+    },
+    {
+      "id": "s10worldtour",
+      "platform": "crossplay",
+      "note": "Season 10 · World Tour"
+    },
+    {
+      "id": "s10powershift",
+      "platform": "crossplay",
+      "note": "Season 10 · Power Shift"
+    },
+    {
+      "id": "s10quickcash",
+      "platform": "crossplay",
+      "note": "Season 10 · Quick Cash"
+    },
+    {
+      "id": "s10teamdeathmatch",
+      "platform": "crossplay",
+      "note": "Season 10 · Team Deathmatch"
+    },
+    {
+      "id": "s10pointbreak",
+      "platform": "crossplay",
+      "note": "Season 10 · Point Break"
+    },
+    {
+      "id": "s10starlighthollow",
+      "platform": "crossplay",
+      "note": "Season 10 · Starlight Hollow"
+    },
+    {
+      "id": "s10the24hourgauntlet",
+      "platform": "crossplay",
+      "note": "Season 10 · The 24 Hour Gauntlet"
+    },
+    {
+      "id": "s10creatorgauntlet",
+      "platform": "crossplay",
+      "note": "Season 10 · Creator Gauntlet"
+    },
+    {
+      "id": "s11",
+      "platform": "crossplay",
+      "note": "Season 11 · Ranked Cashout"
+    },
+    {
+      "id": "s11sponsor",
+      "platform": "crossplay",
+      "note": "Season 11 · Sponsor"
+    },
+    {
+      "id": "s11worldtour",
+      "platform": "crossplay",
+      "note": "Season 11 · World Tour"
+    },
+    {
+      "id": "s11powershift",
+      "platform": "crossplay",
+      "note": "Season 11 · Power Shift"
+    },
+    {
+      "id": "s11quickcash",
+      "platform": "crossplay",
+      "note": "Season 11 · Quick Cash"
+    },
+    {
+      "id": "s11teamdeathmatch",
+      "platform": "crossplay",
+      "note": "Season 11 · Team Deathmatch"
+    },
+    {
+      "id": "s11pointbreak",
+      "platform": "crossplay",
+      "note": "Season 11 · Point Break"
+    },
+    {
+      "id": "s11orbitalhitters",
+      "platform": "crossplay",
+      "note": "Season 11 · Orbital Hitters"
+    },
+    {
+      "id": "orf",
+      "platform": "crossplay",
+      "note": "ORF"
+    },
+    {
+      "id": "the-finals",
+      "platform": "crossplay",
+      "note": "THE FINALS (tournament wins)"
+    },
+    {
+      "id": "ce44",
+      "kind": "community-event",
+      "note": "Community event 44"
+    },
+    {
+      "id": "ce48",
+      "kind": "community-event",
+      "note": "Community event 48"
+    }
+  ]
+}
