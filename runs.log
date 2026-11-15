@@ -1630,3 +1630,4 @@
 {"at":"2026-11-15T05:13:10.566Z","key":"s12-crossplay","outcome":"unchanged","status":200,"durationMs":540,"count":10000,"sha256":"aa5d3898138396437a8bb373f12e192575b59780ee5092684009f26760b36595"}
 {"at":"2026-11-15T05:23:10.622Z","key":"s12-crossplay","outcome":"unchanged","status":200,"durationMs":270,"count":10000,"sha256":"aa5d3898138396437a8bb373f12e192575b59780ee5092684009f26760b36595"}
 {"at":"2026-11-15T05:33:11.166Z","key":"s12-crossplay","outcome":"unchanged","status":200,"durationMs":434,"count":10000,"sha256":"aa5d3898138396437a8bb373f12e192575b59780ee5092684009f26760b36595"}
+{"at":"2026-11-15T05:43:11.896Z","key":"s12-crossplay","outcome":"delta","status":200,"durationMs":500,"count":10000,"changed":560,"removed":59,"file":"delta-2026-11-15T05-43-11Z.json.gz","bytes":15118,"sha256":"fb544cc3b08b360f34d681abb75c9576cb6ac0e2c0f883f3601db0ff6666b114"}
