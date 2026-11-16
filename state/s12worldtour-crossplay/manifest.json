@@ -6,109 +6,18 @@
     "rank",
     "change"
   ],
-  "deltas": [
-    {
-      "file": "delta-2026-11-15T03-53-14Z.json.gz",
-      "at": "2026-11-15T03:53:14.082Z",
-      "sha256": "3d11502e0fbf3c251e648dba854c962317a38f7ae0167d9b76eea10127e71868",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-15T04-53-11Z.json.gz",
-      "at": "2026-11-15T04:53:11.953Z",
-      "sha256": "91c176e4c47f6d82f48caa493b327022db63304c18c711cbf3871dcc090360e8",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-15T05-53-13Z.json.gz",
-      "at": "2026-11-15T05:53:13.298Z",
-      "sha256": "2392706f8296ee2a31b9011a597460d2823a35a8aa58c3defc118558c882ea62",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-15T06-53-20Z.json.gz",
-      "at": "2026-11-15T06:53:20.946Z",
-      "sha256": "3532f1732f0d29f2e693061ba0ff07f038e1a593f9583147c5b3ff7124411925",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-15T07-53-12Z.json.gz",
-      "at": "2026-11-15T07:53:12.547Z",
-      "sha256": "e0063216340402e71e0473d700fc23b74c9439c8f6f69b1f92c18ac9873bb9f7",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-15T10-33-44Z.json.gz",
-      "at": "2026-11-15T10:33:44.015Z",
-      "sha256": "ba2b438f3b5c35a8830f6ffb80104602fd2d8e15663a1853167b654e828346c3",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-15T11-33-39Z.json.gz",
-      "at": "2026-11-15T11:33:39.813Z",
-      "sha256": "69cfe5e019a53109bdc835a1f134cf8310b704e7d623f801cbaea3e8ddf6f2bb",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-15T14-06-31Z.json.gz",
-      "at": "2026-11-15T14:06:31.760Z",
-      "sha256": "0ab9a94c102969ef266d1343abb63e415fee8b1a4199cfa0321b95a48b0bc61c",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-15T17-23-39Z.json.gz",
-      "at": "2026-11-15T17:23:39.151Z",
-      "sha256": "5374bd781d52ea950e63835bebfb23c17ee7141805205ba5ccf3920fe9e51baf",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-15T19-45-22Z.json.gz",
-      "at": "2026-11-15T19:45:22.112Z",
-      "sha256": "e0f7ca291ee0f5c7e56ac5347f36e03b6ce1a03393ef5196488e78cfe7febd27",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-15T21-33-50Z.json.gz",
-      "at": "2026-11-15T21:33:50.546Z",
-      "sha256": "3826cc1dd0109f4bb563c2da5517949ab1eacd72fff01402219b25f309428a25",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-15T23-33-53Z.json.gz",
-      "at": "2026-11-15T23:33:53.609Z",
-      "sha256": "931639f88ecab809a5ba3fb93a9047bce4c1c4489564b8672836cfa9a12a9f1f",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-16T00-33-15Z.json.gz",
-      "at": "2026-11-16T00:33:15.758Z",
-      "sha256": "f097f099ef419dd5e07e8ab1001843c143b2e4b1ad3007f9a0bca32869d804aa",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-16T01-33-13Z.json.gz",
-      "at": "2026-11-16T01:33:13.901Z",
-      "sha256": "6251a2b62820bf508d3f03d8905ab225393a197a82b52621e24b333be0a965a1",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-16T02-33-12Z.json.gz",
-      "at": "2026-11-16T02:33:12.865Z",
-      "sha256": "d8d2d113e7d3308b5a5fa55348c38e879ff621c1121ad89c7614468c5e7db1bd",
-      "count": 10000
-    }
-  ],
+  "deltas": [],
   "base": {
-    "file": "full-2026-11-15T02-53-18Z.json.gz",
-    "at": "2026-11-15T02:53:18.441Z",
-    "sha256": "e87c3e3377defefb54024f276d00265b244af5ea12ff21213459367df83ac1a2",
+    "file": "full-2026-11-16T03-33-12Z.json.gz",
+    "at": "2026-11-16T03:33:12.905Z",
+    "sha256": "7ad3f27b5aea019f6356058b3af651055e26c09b93de2afc23adeaab648c26d5",
     "count": 10000
   },
   "lastRun": {
-    "at": "2026-11-16T02:33:12.865Z",
-    "outcome": "delta",
-    "sha256": "d8d2d113e7d3308b5a5fa55348c38e879ff621c1121ad89c7614468c5e7db1bd",
+    "at": "2026-11-16T03:33:12.905Z",
+    "outcome": "full",
+    "sha256": "7ad3f27b5aea019f6356058b3af651055e26c09b93de2afc23adeaab648c26d5",
     "count": 10000
   },
-  "lastSuccessAt": "2026-11-16T02:33:12.865Z"
+  "lastSuccessAt": "2026-11-16T03:33:12.905Z"
 }
