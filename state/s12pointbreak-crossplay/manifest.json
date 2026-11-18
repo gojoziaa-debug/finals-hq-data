@@ -6,7 +6,14 @@
     "rank",
     "change"
   ],
-  "deltas": [],
+  "deltas": [
+    {
+      "file": "delta-2026-11-18T19-08-30Z.json.gz",
+      "at": "2026-11-18T19:08:30.092Z",
+      "sha256": "d70d45e215b048f247a7d04ac73eafac0e85aee3171566d61f069aaa138ceef2",
+      "count": 10000
+    }
+  ],
   "base": {
     "file": "full-2026-11-18T09-03-53Z.json.gz",
     "at": "2026-11-18T09:03:53.387Z",
@@ -14,10 +21,10 @@
     "count": 10000
   },
   "lastRun": {
-    "at": "2026-11-18T09:03:53.387Z",
-    "outcome": "full",
-    "sha256": "7fffa9593cfe9c3164328e009733a0911230fa72241477eb91276a4a1fcd3fe1",
+    "at": "2026-11-18T19:08:30.092Z",
+    "outcome": "delta",
+    "sha256": "d70d45e215b048f247a7d04ac73eafac0e85aee3171566d61f069aaa138ceef2",
     "count": 10000
   },
-  "lastSuccessAt": "2026-11-18T09:03:53.387Z"
+  "lastSuccessAt": "2026-11-18T19:08:30.092Z"
 }
