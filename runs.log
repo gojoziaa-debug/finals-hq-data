@@ -2007,3 +2007,4 @@
 {"at":"2026-11-19T15:33:59.416Z","key":"s12soloshowdown-crossplay","outcome":"full","status":200,"durationMs":182,"count":10000,"changed":109,"removed":15,"file":"full-2026-11-19T15-33-59Z.json.gz","bytes":485161,"sha256":"989074c5287cb81398fc1a18cd76f2f828ab0fc5e109145f7ec7f5ebad5f3b71"}
 {"at":"2026-11-19T16:03:27.059Z","key":"s12-crossplay","outcome":"unchanged","status":200,"durationMs":563,"count":10000,"sha256":"160031f18a68d7ed60b6781e999396b888c1e5b4ac26d87f656836b6f1694db1"}
 {"at":"2026-11-19T16:13:37.289Z","key":"s12-crossplay","outcome":"unchanged","status":200,"durationMs":469,"count":10000,"sha256":"160031f18a68d7ed60b6781e999396b888c1e5b4ac26d87f656836b6f1694db1"}
+{"at":"2026-11-19T16:23:38.244Z","key":"s12-crossplay","outcome":"delta","status":200,"durationMs":404,"count":10000,"changed":368,"removed":25,"file":"delta-2026-11-19T16-23-38Z.json.gz","bytes":9571,"sha256":"9df6ef0ad843e5c80a2809aabb83a5b3b86fe16f0cfb43352e55eb56aa6d7913"}
