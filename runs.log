@@ -2220,3 +2220,4 @@
 {"at":"2026-11-20T15:33:28.290Z","key":"s12soloshowdown-crossplay","outcome":"delta","status":200,"durationMs":85,"count":10000,"changed":98,"removed":5,"file":"delta-2026-11-20T15-33-28Z.json.gz","bytes":2647,"sha256":"b0cfd701dc94711ed1eccf8af17b5dffc93c27644bbffbca979b4a43dedaece6"}
 {"at":"2026-11-20T15:43:22.179Z","key":"s12-crossplay","outcome":"unchanged","status":200,"durationMs":893,"count":10000,"sha256":"6bff114b2a9564925e27248eb80a03dd159fdb097079611b1362d3a1c72f3de9"}
 {"at":"2026-11-20T15:53:13.298Z","key":"s12-crossplay","outcome":"unchanged","status":200,"durationMs":514,"count":10000,"sha256":"6bff114b2a9564925e27248eb80a03dd159fdb097079611b1362d3a1c72f3de9"}
+{"at":"2026-11-20T16:03:11.565Z","key":"s12-crossplay","outcome":"delta","status":200,"durationMs":891,"count":10000,"changed":395,"removed":28,"file":"delta-2026-11-20T16-03-11Z.json.gz","bytes":10460,"sha256":"f27c0c80fe912f550173b2ca78632d3012d063cf89833be5371a6fedd8d35c2d"}
