@@ -6,127 +6,18 @@
     "rank",
     "change"
   ],
-  "deltas": [
-    {
-      "file": "delta-2026-11-19T15-33-44Z.json.gz",
-      "at": "2026-11-19T15:33:44.630Z",
-      "sha256": "c2e08fe12e01aeb6fa16f7ca94b99ecfc9112c8ebc794dcca28ca1744b7ed719",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-19T16-33-20Z.json.gz",
-      "at": "2026-11-19T16:33:20.180Z",
-      "sha256": "26a555714cf38ec4c7e2f2b3c9dc0b66efc3cb901c468e907090b13cb84acebb",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-19T17-33-23Z.json.gz",
-      "at": "2026-11-19T17:33:23.051Z",
-      "sha256": "41359bdc14f0c6beb8729e362dd26166a48f73b93a2c756d01a3685c06d1030d",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-19T18-33-13Z.json.gz",
-      "at": "2026-11-19T18:33:13.814Z",
-      "sha256": "7ca542e37a10d8beb30ebda195bf13eaebbb0d78a1900eff9a3b559422c64c28",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-19T19-33-17Z.json.gz",
-      "at": "2026-11-19T19:33:17.407Z",
-      "sha256": "771f13f7058c54cea87b55b374405478297345ab5a2cfddd433216385ae557f1",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-19T20-33-20Z.json.gz",
-      "at": "2026-11-19T20:33:20.564Z",
-      "sha256": "4fba47bf5b70bbda5fe503ce35b51030cfb1062bfe09435d54df41dc6d9fad12",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-19T21-33-30Z.json.gz",
-      "at": "2026-11-19T21:33:30.833Z",
-      "sha256": "a3bf1f2fc32b5b8fd5cd8aa076af426df7d31a3dffc58b7aeab088f40cad15c7",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-19T22-33-13Z.json.gz",
-      "at": "2026-11-19T22:33:13.005Z",
-      "sha256": "0020bb1840857cabeb930ab8c1d7987fa0dcb403cb2eeb1ab6ff9b087b0f1336",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-19T23-33-12Z.json.gz",
-      "at": "2026-11-19T23:33:12.394Z",
-      "sha256": "1298db18f5421aa2753c6064fbba0465169054748857443b75ca1474fef29f97",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-20T00-33-12Z.json.gz",
-      "at": "2026-11-20T00:33:12.044Z",
-      "sha256": "2bf39f9d3ef3da1e42152bcb53fd2ae6113924c7d29b85123da9b8881dc33a68",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-20T01-33-16Z.json.gz",
-      "at": "2026-11-20T01:33:16.436Z",
-      "sha256": "4f371c11028a9a3806f3cabd00996104bbd3ce55bba624905726f9df0f59ab53",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-20T02-33-13Z.json.gz",
-      "at": "2026-11-20T02:33:13.231Z",
-      "sha256": "2d2acf725bf795efcb71cf10eb6a9ae9960ff0eb532b349184c5c6b6fde45322",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-20T03-33-32Z.json.gz",
-      "at": "2026-11-20T03:33:32.983Z",
-      "sha256": "14dab4b2b2fefe96247a520ab0f685f236fd49c25f201668695d540a2531605c",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-20T04-33-13Z.json.gz",
-      "at": "2026-11-20T04:33:13.731Z",
-      "sha256": "bda2293ffc2f103f34d80b7f28df57807ff85102eef112a6eb11851025ea8159",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-20T05-33-19Z.json.gz",
-      "at": "2026-11-20T05:33:19.029Z",
-      "sha256": "0cfaccc83c439a39267e6ce6aad89428856519ff62541acd11256f498743fb63",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-20T06-33-12Z.json.gz",
-      "at": "2026-11-20T06:33:12.204Z",
-      "sha256": "0a00984371dc9f61a354aa91cc08a3cf67614577c0483714abaf79450c076547",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-20T07-33-13Z.json.gz",
-      "at": "2026-11-20T07:33:13.970Z",
-      "sha256": "920ae60d7e5d8100742c851b3936c19cabb39db462fe4b4847d3ffa2626b1642",
-      "count": 10000
-    },
-    {
-      "file": "delta-2026-11-20T08-33-12Z.json.gz",
-      "at": "2026-11-20T08:33:12.359Z",
-      "sha256": "af47c92782e75d92597c2861d03dcab432a42b953bde0d602b474fa60e12d7d3",
-      "count": 10000
-    }
-  ],
+  "deltas": [],
   "base": {
-    "file": "full-2026-11-19T08-42-43Z.json.gz",
-    "at": "2026-11-19T08:42:43.782Z",
-    "sha256": "866bf0fe14b77072895a42cbf024f8197fd53857318e2cb11c446b1f5232a786",
+    "file": "full-2026-11-20T09-33-11Z.json.gz",
+    "at": "2026-11-20T09:33:11.725Z",
+    "sha256": "4b01c25fedb5e88a434a16a91272566c6259f3dbd14c4c0105e5094a7f151de8",
     "count": 10000
   },
   "lastRun": {
-    "at": "2026-11-20T08:33:12.359Z",
-    "outcome": "delta",
-    "sha256": "af47c92782e75d92597c2861d03dcab432a42b953bde0d602b474fa60e12d7d3",
+    "at": "2026-11-20T09:33:11.725Z",
+    "outcome": "full",
+    "sha256": "4b01c25fedb5e88a434a16a91272566c6259f3dbd14c4c0105e5094a7f151de8",
     "count": 10000
   },
-  "lastSuccessAt": "2026-11-20T08:33:12.359Z"
+  "lastSuccessAt": "2026-11-20T09:33:11.725Z"
 }
