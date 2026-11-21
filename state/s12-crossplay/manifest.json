@@ -87,10 +87,10 @@
     "count": 10000
   },
   "lastRun": {
-    "at": "2026-11-21T14:53:17.538Z",
-    "outcome": "delta",
+    "at": "2026-11-21T15:03:15.870Z",
+    "outcome": "unchanged",
     "sha256": "cdcf24c1589393134b6122123b87d519dd7fa1bafcd39d585beaa06da2d1e786",
     "count": 10000
   },
-  "lastSuccessAt": "2026-11-21T14:53:17.538Z"
+  "lastSuccessAt": "2026-11-21T15:03:15.870Z"
 }
