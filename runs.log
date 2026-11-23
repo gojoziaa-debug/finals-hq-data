@@ -2771,3 +2771,6 @@
 {"at":"2026-11-23T05:03:11.650Z","key":"s12-crossplay","outcome":"unchanged","status":200,"durationMs":590,"count":10000,"sha256":"89e8df7cfb794674a99fa608055f5afa64a3fd08e4f26c8a78f3a93d20f69b2d"}
 {"at":"2026-11-23T05:13:20.365Z","key":"s12-crossplay","outcome":"unchanged","status":200,"durationMs":871,"count":10000,"sha256":"89e8df7cfb794674a99fa608055f5afa64a3fd08e4f26c8a78f3a93d20f69b2d"}
 {"at":"2026-11-23T05:23:09.785Z","key":"s12-crossplay","outcome":"unchanged","status":200,"durationMs":286,"count":10000,"sha256":"89e8df7cfb794674a99fa608055f5afa64a3fd08e4f26c8a78f3a93d20f69b2d"}
+{"at":"2026-11-23T05:33:11.428Z","key":"s12-crossplay","outcome":"unchanged","status":200,"durationMs":319,"count":10000,"sha256":"89e8df7cfb794674a99fa608055f5afa64a3fd08e4f26c8a78f3a93d20f69b2d"}
+{"at":"2026-11-23T05:33:13.757Z","key":"s12worldtour-crossplay","outcome":"delta","status":200,"durationMs":78,"count":10000,"changed":1246,"removed":25,"file":"delta-2026-11-23T05-33-13Z.json.gz","bytes":25283,"sha256":"505108c84eab5230c777e629fe0658d2d2824fb3506d43cdc359eb3d080d53e6"}
+{"at":"2026-11-23T05:33:16.055Z","key":"s12sponsor-crossplay","outcome":"delta","status":200,"durationMs":78,"count":10000,"changed":1282,"removed":25,"file":"delta-2026-11-23T05-33-16Z.json.gz","bytes":23756,"sha256":"e4c4e5b9836ad3b59e2f6c1e4f88498ebe5b16410b7210f940c2d19a2542ba7c"}
