@@ -3273,3 +3273,4 @@
 {"at":"2026-11-25T13:33:23.221Z","key":"s12worldtour-crossplay","outcome":"delta","status":200,"durationMs":317,"count":10000,"changed":715,"removed":12,"file":"delta-2026-11-25T13-33-23Z.json.gz","bytes":14705,"sha256":"8dc0022282b5ffdec8d88881e4c32678036b9bc5278286449913b02c74082b28"}
 {"at":"2026-11-25T13:33:25.657Z","key":"s12sponsor-crossplay","outcome":"delta","status":200,"durationMs":577,"count":10000,"changed":879,"removed":15,"file":"delta-2026-11-25T13-33-25Z.json.gz","bytes":16337,"sha256":"9a9907d130e11dab7cf3813e93f33bca765f452db112b423f6e02d0fafc002b6"}
 {"at":"2026-11-25T13:37:07.417Z","key":"s12-crossplay","outcome":"unchanged","status":200,"durationMs":521,"count":10000,"sha256":"300e8ef64b4bfbc2bdcacd23bbc6ba5a9eae7bdcc916f07d266b7aeed311980f"}
+{"at":"2026-11-25T13:43:10.573Z","key":"s12-crossplay","outcome":"unchanged","status":200,"durationMs":784,"count":10000,"sha256":"300e8ef64b4bfbc2bdcacd23bbc6ba5a9eae7bdcc916f07d266b7aeed311980f"}
