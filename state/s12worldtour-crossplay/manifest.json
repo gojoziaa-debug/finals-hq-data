@@ -138,6 +138,12 @@
       "at": "2026-11-26T08:33:16.871Z",
       "sha256": "69b35b88f8b6e93a29bc89133c8b16b8b9ccfc03ecb2dad5c0c662e2ba1c7cbc",
       "count": 10000
+    },
+    {
+      "file": "delta-2026-11-26T09-33-13Z.json.gz",
+      "at": "2026-11-26T09:33:13.807Z",
+      "sha256": "8475076badfb9d040b67bef5f6c6f2969bdf6e5bb18f768a3c15ae24ed5ff558",
+      "count": 10000
     }
   ],
   "base": {
@@ -147,10 +153,10 @@
     "count": 10000
   },
   "lastRun": {
-    "at": "2026-11-26T08:33:16.871Z",
+    "at": "2026-11-26T09:33:13.807Z",
     "outcome": "delta",
-    "sha256": "69b35b88f8b6e93a29bc89133c8b16b8b9ccfc03ecb2dad5c0c662e2ba1c7cbc",
+    "sha256": "8475076badfb9d040b67bef5f6c6f2969bdf6e5bb18f768a3c15ae24ed5ff558",
     "count": 10000
   },
-  "lastSuccessAt": "2026-11-26T08:33:16.871Z"
+  "lastSuccessAt": "2026-11-26T09:33:13.807Z"
 }
